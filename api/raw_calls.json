@@ -1,0 +1,69 @@
+{
+    "calls": {
+        "AAC": {
+            "doc_link": "https://viacep.com.br/",
+            "initialized": true,
+            "method": "get",
+            "name": "get CEP info - data",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1519170218471x969128757943861200.plugin_api.AAC",
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"get CEP info - data\",\"fields\":{\"_p_cep\":{\"ret_value\":\"text\",\"caption\":\"cep\",\"path\":[\"cep\"]},\"_p_logradouro\":{\"ret_value\":\"text\",\"caption\":\"logradouro\",\"path\":[\"logradouro\"]},\"_p_complemento\":{\"ret_value\":\"text\",\"caption\":\"complemento\",\"path\":[\"complemento\"]},\"_p_bairro\":{\"ret_value\":\"text\",\"caption\":\"bairro\",\"path\":[\"bairro\"]},\"_p_localidade\":{\"ret_value\":\"text\",\"caption\":\"localidade\",\"path\":[\"localidade\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"path\":[\"uf\"]},\"_p_unidade\":{\"ret_value\":\"text\",\"caption\":\"unidade\",\"path\":[\"unidade\"]},\"_p_ibge\":{\"ret_value\":\"text\",\"caption\":\"ibge\",\"path\":[\"ibge\"]},\"_p_gia\":{\"ret_value\":\"text\",\"caption\":\"gia\",\"path\":[\"gia\"]}}}}",
+            "url": "https://viacep.com.br/ws/[cep]/json/",
+            "url_params": {
+                "AAD": {
+                    "key": "cep",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAE": {
+            "doc_link": "https://viacep.com.br/",
+            "initialized": true,
+            "method": "get",
+            "name": "get CEP info - action",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1519170218471x969128757943861200.plugin_api.AAE",
+            "types": "{\"plugin_api.AAE\":{\"caption\":\"get CEP info - action\",\"fields\":{\"_p_cep\":{\"ret_value\":\"text\",\"caption\":\"cep\",\"path\":[\"cep\"]},\"_p_logradouro\":{\"ret_value\":\"text\",\"caption\":\"logradouro\",\"path\":[\"logradouro\"]},\"_p_complemento\":{\"ret_value\":\"text\",\"caption\":\"complemento\",\"path\":[\"complemento\"]},\"_p_bairro\":{\"ret_value\":\"text\",\"caption\":\"bairro\",\"path\":[\"bairro\"]},\"_p_localidade\":{\"ret_value\":\"text\",\"caption\":\"localidade\",\"path\":[\"localidade\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"path\":[\"uf\"]},\"_p_unidade\":{\"ret_value\":\"text\",\"caption\":\"unidade\",\"path\":[\"unidade\"]},\"_p_ibge\":{\"ret_value\":\"text\",\"caption\":\"ibge\",\"path\":[\"ibge\"]},\"_p_gia\":{\"ret_value\":\"text\",\"caption\":\"gia\",\"path\":[\"gia\"]}}}}",
+            "url": "https://viacep.com.br/ws/[cep]/json/",
+            "url_params": {
+                "AAF": {
+                    "key": "cep",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAG": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "get CEP from info",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1519170218471x969128757943861200.plugin_api.AAG",
+            "types": "{\"plugin_api.AAG\":{\"caption\":\"get CEP from info\",\"fields\":{\"_p_cep\":{\"ret_value\":\"text\",\"caption\":\"cep\",\"path\":[\"cep\"]},\"_p_logradouro\":{\"ret_value\":\"text\",\"caption\":\"logradouro\",\"path\":[\"logradouro\"]},\"_p_complemento\":{\"ret_value\":\"text\",\"caption\":\"complemento\",\"path\":[\"complemento\"]},\"_p_bairro\":{\"ret_value\":\"text\",\"caption\":\"bairro\",\"path\":[\"bairro\"]},\"_p_localidade\":{\"ret_value\":\"text\",\"caption\":\"localidade\",\"path\":[\"localidade\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"path\":[\"uf\"]},\"_p_unidade\":{\"ret_value\":\"text\",\"caption\":\"unidade\",\"path\":[\"unidade\"]},\"_p_ibge\":{\"ret_value\":\"text\",\"caption\":\"ibge\",\"path\":[\"ibge\"]},\"_p_gia\":{\"ret_value\":\"text\",\"caption\":\"gia\",\"path\":[\"gia\"]}}}}",
+            "url": "https://viacep.com.br/ws/[uf]/[localidade]/[logradouro]/json/",
+            "url_params": {
+                "AAH": {
+                    "key": "uf",
+                    "private": true,
+                    "value": ""
+                },
+                "AAS": {
+                    "key": "localidade",
+                    "private": true,
+                    "value": ""
+                },
+                "AAT": {
+                    "key": "logradouro",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "ViaCEP"
+}
